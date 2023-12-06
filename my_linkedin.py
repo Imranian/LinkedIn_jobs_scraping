@@ -26,8 +26,8 @@ password_input = driver.find_element('name', 'session_password')
 
 
 # Input your LinkedIn credentials
-username_input.send_keys('imranian111@gmail.com')
-password_input.send_keys('Imranian@111')
+username_input.send_keys('youremail@gmail.com')
+password_input.send_keys('yourpassword')
 
 # Find and wait for the login button to be clickable
 login_button = WebDriverWait(driver, 10).until(
